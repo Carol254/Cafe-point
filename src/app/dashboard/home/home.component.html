@@ -8,35 +8,30 @@
 </head>
 <body>
     <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
 <div class="home-content"> 
-    <div class="d-flex justify-content-center">
-        <div>
-            <div class="logo">B</div>
-        </div>
-    </div>   
-    <div class="d-flex justify-content-center">
-        <p class="my-label">BLAZE KITCHEN</p>
-    </div>
+   
+ <header>
+  <div class="centered d-flex justify-content-center">
+    
+        <ul class="navbar">
+            <li><a>HOME</a></li>
+            <li><a routerLink="/about-us">ABOUT US</a></li>
+
+            <li><a routerLink="/articles">ARTICLES</a></li>
+            <li><a href="#">CAREER</a></li>
+            <li><a href="#">CAREERs</a></li>
+            <li><a href="#">CONTACT </a></li>
+            <li><a routerLink="/our-menu">OUR MENU </a></li>
+            <li><a href="#">MEDIA</a></li>
+            <li><a href="#">TESTIMONIALS</a></li>
+            <li><a href="#">REFERENCES</a></li>
+
+        </ul>            
+    
+</div>
+ </header>
  
-    <div class="centered d-flex justify-content-center">
-        <nav>
-            <ul class="nav navs navs2">
-                <li><a>HOME</a></li>
-                <li><a routerLink="/about-us">ABOUT US</a></li>
-
-                <li><a routerLink="/articles">ARTICLES</a></li>
-                <li><a href="#">CAREER</a></li>
-                <li><a href="#">CAREERs</a></li>
-                <li><a href="#">CONTACT </a></li>
-                <li><a routerLink="/our-menu">OUR MENU </a></li>
-                <li><a href="#">MEDIA</a></li>
-                <li><a href="#">TESTIMONIALS</a></li>
-                <li><a href="#">REFERENCES</a></li>
-
-            </ul>            
-        </nav>
-    </div>
     <div class="_content">
         <p>A Wide range of recipes for you</p>
         <p class="recipes">DELICIOUS RECIPES</p>
@@ -46,185 +41,7 @@
     </div>
     
 </div> 
-<!-- end of home page -->
 
-<div class="history-container d-flex px-5 mt-4">
-    <div class="col-6">
-     <img src="/assets/pexels-olena-bohovyk-3323680.jpg">
-    </div> 
-    <div class="col-6">
-        <p>OUR HISTORY</p>
-        <p><strong>THE BEST RESTRAUNT IN TOWN</strong></p>
-        <p class="history-info">The Blaze Kitchen is located in Mombasa,Kenya.It was established in 2020.
-         Located just next to the shore,The Blaze Kitchen is one of the best restaraunts in Town.
-         Our delicacies have attracted a wide pool of customers,who couldn't get enough of our amazing meals.
-         Over the years we've been in business,The Blaze Kitchen has kept the bar high and we keep on striving to serve you nothing but the best.
-     </p>
-         <div class="btn"(click)="onAboutSelected()">
-             Read More
-         </div>
-    </div>
- 
- </div>
-
- <!-- end of our history page -->
- <div class="cusine-container d-flex px-5 mt-5">
-    <div class="col-5">
-        <img class="cusine" src="/assets/pexels-ash-376464.jpg">
-    </div>
-    <div class="cusine-content col-7">
-        <p>OUR CUSINE</p>
-        <p><strong>THE SECRET TO OUR FINEST CUSINE</strong></p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vel nobis, illum cumque eos optio 
-            itaque culpa ut perspiciatis sint consequatur nulla nemo dolor voluptatum. Quas assumenda reprehenderit eius id?</p>
-            <div class="btn"(click)="onMenuSelected()">
-                Read More
-            </div>
-    </div>
- 
-</div>
-
-<!-- end of  cusine page -->
-<div class="testimonials-content mt-5 mb-5">
-    <h2 class="d-flex justify-content-center mb-6">TESTIMONIALS</h2>
-    <div class="d-flex justify-content-center">
-        <p>We appreciate all of our customers here at Blaze Kitchen and we are delighted to serve you.
-            Here are some of the testimonials from our highly esteemed customers.
-        </p>
-    </div>
-  
-</div>
-<div class="d-flex justify-content-center mt-5">
-    <div class="card">
-        <input type="radio" name="select" id="slide_1" checked>
-        <input type="radio" name="select" id="slide_2">
-        <input type="radio" name="select" id="slide_3">
-        <input type="radio" name="select" id="slide_4">
-        <input type="radio" name="select" id="slide_5">
-        <input type="radio" name="select" id="slide_6">
-        
-        <input type="checkbox" id="slideImg">
-      
-        <div class="slider">
-          <label for="slide_1" class="slide slide_1"></label>
-          <label for="slide_2" class="slide slide_2"></label>
-          <label for="slide_3" class="slide slide_3"></label>
-          <label for="slide_3" class="slide slide_4"></label>
-          <label for="slide_3" class="slide slide_5"></label>
-          <label for="slide_3" class="slide slide_6"></label>
-        </div>
-      
-        <div class="inner_part">
-          <label for="slideImg" class="img">
-            <img class="img_1" src="/assets/client1.jpg">
-          </label>
-          <div class="content content_1">
-            <div class="title">İstanbul</div>
-            <div class="text">
-              Istanbul, a fascinating city built on two Continents, divided by the Bosphorus Strait. This is one of the greatest cities in the world.
-            </div>
-            <button>Read More</button>
-          </div>
-        </div>
-      
-        <div class="inner_part">
-          <label for="slideImg" class="img">
-            <img class="img_2" src="/assets/client2.jpg">
-          </label>
-          <div class="content content_2">
-            <div class="title">Ankara</div>
-            <div class="text">
-              Ankara is Turkey's beating heart, second largest city, located in the Central Anatolia region and home to the Grand National Assembly of Turkey.
-            </div>
-            <button>Read More</button>
-          </div>
-        </div>
-      
-        <div class="inner_part">
-          <label for="slideImg" class="img">
-            <img class="img_3" src="/assets/client3.jpg">
-          </label>
-          <div class="content content_3">
-            <div class="title">İzmir</div>
-            <div class="text">Located on the shores of the Aegean Sea, west of the Anatolian Peninsula, İzmir is the third-largest city in Turkey.
-            </div>
-            <button>Read More</button>
-          </div>
-        </div>
-        <div class="inner_part">
-            <label for="slideImg" class="img">
-              <img class="img_4" src="/assets/client4.jpg">
-            </label>
-            <div class="content content_3">
-              <div class="title">İzmir</div>
-              <div class="text">Located on the shores of the Aegean Sea, west of the Anatolian Peninsula, İzmir is the third-largest city in Turkey.
-              </div>
-              <button>Read More</button>
-            </div>
-          </div>
-          <div class="inner_part">
-            <label for="slideImg" class="img">
-              <img class="img_5" src="/assets/client5.jpg">
-            </label>
-            <div class="content content_3">
-              <div class="title">İzmir</div>
-              <div class="text">Located on the shores of the Aegean Sea, west of the Anatolian Peninsula, İzmir is the third-largest city in Turkey.
-              </div>
-              <button>Read More</button>
-            </div>
-          </div>
-          <div class="inner_part">
-            <label for="slideImg" class="img">
-              <img class="img_6" src="/assets/client6.jpg">
-            </label>
-            <div class="content content_3">
-              <div class="title">İzmir</div>
-              <div class="text">Located on the shores of the Aegean Sea, west of the Anatolian Peninsula, İzmir is the third-largest city in Turkey.
-              </div>
-              <button>Read More</button>
-            </div>
-          </div>
-      </div>
-</div>
-<!-- ------------------------------------------------------- -->
-<div class="footer d-flex flex-row mt-4">
-  <div class="col-3 p-2 d-flex flex-column align-items-center" ><h5>Blaze Kitchen</h5>
-  <p>Food for the body is not enough there must be food for the soul</p></div>
-  <div class="col-2 p-2 d-flex flex-column align-items-center"><h5>Main Menu</h5>
-  <ul>
-    <li>About</li>
-    <li>Menu</li>
-    <li>Offer</li>
-    <li>Events</li>
-  </ul>
-  </div>
-  <div class="col-2 p-2 d-flex flex-column align-items-center"><h5>Information</h5>
-    <ul>
-      <li>Contacts</li>
-      <li>Ordes</li>
-      <li>Videos</li>
-      <li>Reservations</li>
-    </ul>
-  </div>
-  <div class="col-2 p-2 d-flex flex-column align-items-center"><h5>Address</h5>
-    <ul>
-      Biashara Steet Msa.
-      Address 0100-80100
-      
-      (0800hrs-2000hrs)
-    </ul>
-  </div>
-  <div class="col-3 p-2 d-flex flex-column align-items-center "><h5>Social Media</h5>
-    <div class="d-flex flex-row">
-      <img src="/assets/icons8-facebook-48.png">
-      <img src="/assets/icons8-twitter-48.png">
-      <img src="/assets/icons8-instagram-48.png">
-    </div>
- 
-  
-
-  </div>
-</div>
 
     </div>
 </body>
