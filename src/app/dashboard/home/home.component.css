@@ -13,3 +13,37 @@
 img{
     width:100%;
 }
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right:0;
+    z-index: 1000;
+    display:flex;
+    justify-items:space-between;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5s linear;
+}
+.navbar{
+    display: flex;
+}
+.navbar a {
+    padding:8px 17px;
+    color:#000;
+    font-size:1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar a:hover{
+    background: yellow;
+    border-radius:0.2rem;
+    transition:0.2s all linear;
+}
+.header-icon{
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    column-gap:0.8rem;
+}
