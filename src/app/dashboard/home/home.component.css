@@ -24,13 +24,15 @@ header{
     align-items: center;
     padding: 18px 100px;
     transition: 0.5s linear;
+    background-color: #141419;
 }
+
 .navbar{
     display: flex;
 }
 .navbar a {
     padding:8px 17px;
-    color:#000;
+    color:#fff;
     font-size:1rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -46,4 +48,66 @@ header{
     z-index: 1000;
     display: flex;
     column-gap:0.8rem;
+    color: #fff;
+}
+.search-box.active{
+    top:110%;
+    
+}
+.search-box{
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    width:100%;
+}
+.search-box input{
+    padding: 20px;
+    border:none;
+    outline:none;
+    width:100%;
+    font-size: 1rem;
+}
+.search-box input::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+section{
+    padding: 50px 100px;
+}
+.home{
+    width:100%;
+    min-height: 100vh;
+    background-color: #141419;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    align-items:center;
+    gap: 1.5rem;
+}
+.home-text h1{
+    font-size:3.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.home-text p{
+    font-size:0.938rem;
+    color:#fff;
+    margin:0.5rem 0 1.4rem;
+}
+.btn{
+    padding: 10px 40px;
+    border-radius: 0.3rem;
+    background-color: #fff;
+    color:#000;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: #141419;
+    color:#fff;
 }
