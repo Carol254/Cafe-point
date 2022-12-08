@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   menus:any;
+  search:any;
   constructor(private router:Router) {this.menus = [
     {
       photo:'/assets/pexels-daniel-reche-1556698.jpg',
@@ -46,4 +47,9 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['about-us']);
   }
 
+  onSearch(){
+    this.search = document.querySelector('#search-icon');
+    this.search.classList.toggle('active');
+    
+  }
 }

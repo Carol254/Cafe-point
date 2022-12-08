@@ -50,10 +50,7 @@ header{
     column-gap:0.8rem;
     color: #fff;
 }
-.search-box.active{
-    top:110%;
-    
-}
+
 .search-box{
     position:absolute;
     top:100%;
@@ -61,6 +58,10 @@ header{
     transform: translate(-50%);
     background-color: #fff;
     width:100%;
+}
+.search-box.active{
+    top:-110%;
+    transition: 0.2s all linear;
 }
 .search-box input{
     padding: 20px;
