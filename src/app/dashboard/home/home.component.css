@@ -79,6 +79,7 @@ section{
     padding: 50px 100px;
 }
 .home{
+    position: relative;
     width:100%;
     min-height: 100vh;
     background-color: #141419;
